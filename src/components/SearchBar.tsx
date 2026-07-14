@@ -19,6 +19,7 @@ export default function SearchBar(props: SearchBarProps) {
         name="city"
         placeholder="Search city..."
         className="search-input"
+        autoFocus
       />
       <button type="submit" className="search-button">
         <img src={searchIcon} alt="Search" className="search-icon" />

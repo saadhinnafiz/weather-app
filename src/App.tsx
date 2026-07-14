@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <>
-      <SearchBar onSearch={handleSearch} /> <p>This is a weather app</p>
+      <SearchBar onSearch={handleSearch} />
     </>
   );
 }
