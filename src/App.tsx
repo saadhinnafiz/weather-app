@@ -1,10 +1,16 @@
 import "./App.css";
 
+import SearchBar from "./components/SearchBar";
+
 export default function App() {
+  // functions
+  function handleSearch(city: string) {
+    console.log(city);
+  }
+
   return (
     <>
-      <h1>Hello World</h1>
-      <p>This is a weather app</p>
+      <SearchBar onSearch={handleSearch} /> <p>This is a weather app</p>
     </>
   );
 }

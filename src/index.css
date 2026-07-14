@@ -4,6 +4,20 @@
   padding: 0;
 }
 
+:root {
+  --inferno: #a60e0e;
+  --charcoal: #565656;
+  --cool-steel: #9f9f9f;
+  --frosted-blue: #99daf2;
+  --yale-blue: #003e72;
+}
+
 body {
+  background: linear-gradient(180deg, #003e72, #001a3a);
+  min-height: 100vh;
   font-family: Inter, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
