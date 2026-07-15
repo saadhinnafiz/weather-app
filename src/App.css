@@ -1,0 +1,33 @@
+/* App.css */
+
+.app-container {
+  width: 100%;
+  max-width: 390px;
+}
+
+.error-message {
+  color: var(--inferno);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 16px;
+}
+
+.loading-message {
+  color: var(--frosted-blue);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
