@@ -1,6 +1,6 @@
 # Weather App
 
-A weather app built with React, TypeScript, and Vite using the OpenWeatherMap API. Built solo without tutorials as a practice project.
+A weather app built with React, TypeScript, and Vite using the OpenWeatherMap API.
 
 ## Features
 
