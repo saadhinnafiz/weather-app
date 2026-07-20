@@ -23,11 +23,26 @@ A weather app built with React, TypeScript, and Vite using the OpenWeatherMap AP
 ## Getting Started
 
 1. Clone the repo
-2. Install dependencies: `npm install`
+2. Install dependencies:
+
+```bash
+npm install
+```
+
 3. Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
-4. Create a `.env` file in the root with your API key:
-   VITE_WEATHER_API_KEY=your_key_here
-5. Run the dev server: `npm run dev`
+4. Copy the example env file and add your key:
+
+```bash
+cp .env.example .env
+```
+
+Then open `.env` and set: VITE_WEATHER_API_KEY=your_key_here
+
+5. Run the dev server:
+
+```bash
+npm run dev
+```
 
 ## Icon Attribution
 
